@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Lyrics.EntityFrameworkCore.Mapper</AssemblyName>
+    <RootNamespace>Lyrics.EntityFrameworkCore.Mapper</RootNamespace>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>1.1.2</Version>
+    <Authors>Lyrics</Authors>
+    <Company />
+    <Product />
+    <Description>An EntityMapper and EntityRegister For EntityFrameworkCore 1.1.2</Description>
+    <PackageTags>Entity Framework Core;EntityTypeConfiguration;Map;Mapper;EF</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/LyricsYo/EntityFrameworkCore.EntityMapper.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/LyricsYo/EntityFrameworkCore.EntityMapper</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
